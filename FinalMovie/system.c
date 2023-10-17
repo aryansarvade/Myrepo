@@ -267,7 +267,7 @@ int UpdateAccountBalance(char *name, int price)
     }
     return -1;
 }
-
+/* another comment*/
 void put_movies()
 {
     insert_movie("Avatar");
