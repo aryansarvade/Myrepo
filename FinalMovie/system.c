@@ -4,7 +4,7 @@
 #include <string.h>
 #include <time.h>
 
-int id2 = 1000;
+int id2 = 2000; /*2000*/
 int count = 0;
 
 int changeprize(int prize)
