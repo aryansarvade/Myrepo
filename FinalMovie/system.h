@@ -25,3 +25,4 @@ int canc_movie_num();
 void details();
 int UpdateAccountBalance(char *name, int price); //returns updated account number of the Username.
 void put_movies();
+/*void nothing()*/
