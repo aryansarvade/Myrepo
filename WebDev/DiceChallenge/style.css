@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(76, 76, 240),
+    rgb(155, 103, 103)
+  );
+  font-family: Playwrite AR;
+}
+
+.playwrite-ar-myfont {
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.heading {
+  color: gold;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.game {
+  margin-top: 20px;
+  width: 50%;
+  height: 400px;
+  margin-left: 25%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: minmax(300px, 700px) minmax(300px, 700px);
+  grid-template-rows: 180px 180px;
+}
+
+.grid-text {
+  margin-top: 20px;
+  text-align: center;
+  color: gold;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.dice {
+  margin-left: 50px;
+}
+
+footer {
+  text-align: center;
+  color: gold;
+}
